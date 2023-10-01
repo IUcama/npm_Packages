@@ -13,7 +13,7 @@ exports.removeDuplicates = (list, identifier = undefined) => {
 }
 
 
-removeDuplicateWithIdentifier = (list, identifier) => {
+removeDuplicatesWithIdentifier = (list, identifier) => {
     const newList = [];
 
     list.forEach(entry => {
@@ -24,7 +24,7 @@ removeDuplicateWithIdentifier = (list, identifier) => {
     return newList;   
 }
 
-removeDuplicateWithoutIdentifier = (list) => {
+removeDuplicatesWithoutIdentifier = (list) => {
     const newList = [];
 
     list.forEach(entry => {

@@ -1,6 +1,6 @@
 {
   "name": "@iucama/array-extensions",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Extensions for arrays",
   "main": "index.js",
   "scripts": {
