@@ -1,0 +1,14 @@
+{
+  "name": "@iucama/array-extensions",
+  "version": "0.1.0",
+  "description": "Extensions for arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Array"
+  ],
+  "author": "IUcama",
+  "license": "GPL-3.0-or-later"
+}
