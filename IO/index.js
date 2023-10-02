@@ -4,8 +4,9 @@ const FileWriter = require('./FileWriter.js');
 //////////////////
 /// FileReader ///
 //////////////////
-exports.readFile = (filename, type) => {
-    return FileReader.readFile(filename, type);
+exports.readFile = async (filename, type) => {
+    const data = await FileReader.readFile(filename, type);
+    return data;
 }
 
 
